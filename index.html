@@ -1,121 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table{
-            background-color: #4eabe0;
-            
-        }
-        body{
-            margin: 200px; 
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Index</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #;
+      margin: 10px auto;
+      padding: 12px 18px;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+  </style>
 </head>
 <body>
-    <table border="1 " cellspacing="0" cellpadding="10px" >
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Jill</td>
-            <td>Smith </td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>Eve</td>
-            <td>Johnson </td>
-            <td>94</td>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>Doe </td>
-            <td>80</td>
-        </tr>
-    </table>
-    <br>
-    <p>Lists can be nested (list inside list):</p>
+
+  <h1>HTML/CSS Task Index</h1>
+
+  <section>
+    <h2>HTML Tasks</h2>
     <ul>
-        <li>Coffee</li>
-        <li>Tea
-            <ul>
-                <li>Black tea</li>
-                <li>Green tea</li>
-            </ul>
-        </li>
-        <li>Milk</li>
+      <li><a href="task.html">Task 1 – Table Example</a></li>
+      <li><a href="task.html">Task 2 – Nested List & Links</a></li>
+      <li><a href="task.html">Task 3 – Registration Form</a></li>
     </ul>
-    <p>Click any of the following links:</p>
+
+    <h2>CSS Tasks</h2>
     <ul>
-        <li><a href="https://example.com" target="_blank">Opens in New</a></li>
-        <li><a href="https://example.com" target="_self">Opens in Self</a></li>
-        <li><a href="https://example.com" target="_parent">Opens in Parent</a></li>
-        <li><a href="https://example.com" target="_top">Opens in Body</a></li>
+      <li><a href="task4.html">CSS Task 1 – Table + Rounded Grid</a></li>
+      <li><a href="task5.html">CSS Task 2 – Navigation Bars</a></li>
+      <li><a href="task6.html">CSS Task 3 – Styled Company Table</a></li>
+      <li><a href="task7.html">CSS Task 4 – Hoverable Sidenav</a></li>
+      <li><a href="task8.html">CSS Task 5 – Login Form</a></li>
+      <li><a href="task9.html">CSS Task 6 – My First Styled Page</a></li>
     </ul>
-    <br>
-    <div class="container">
-        <h1>Task 3</h1>
-        <h2>Registration Form</h2>
-        <form>
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName">
+  </section>
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-
-            <label for="rePassword">Re-enter Password:</label>
-            <input type="password" id="rePassword" name="rePassword">
-
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <br>
-
-            <label for="age">Age:</label>
-            <input type="text" id="age" name="age">
-
-            <label for="phoneNumber">Phone Number:</label>
-            <input type="text" id="phoneNumber" name="phoneNumber">
-
-            <label for="address">Address:</label>
-            <textarea id="address" name="address"></textarea>
-
-            <label for="state">State:</label>
-            <input type="text" id="state" name="state">
-
-            <label for="country">Country:</label>
-            <select id="country" name="country">
-                <option value="">Choose your country</option>
-            </select>
-
-            <label>Languages known:</label>
-            <input type="checkbox" id="english" name="languages" value="english">
-            <label for="english">English</label>
-            <input type="checkbox" id="kannada" name="languages" value="kannada">
-            <label for="kannada">Kannada</label>
-            <input type="checkbox" id="hindi" name="languages" value="hindi">
-            <label for="hindi">Hindi</label>
-            <input type="checkbox" id="telugu" name="languages" value="telugu">
-            <label for="telugu">Telugu</label>
-
-            <input type="checkbox" id="declaration" name="declaration" value="true">
-            <label for="declaration">Hereby I declare all the given details are true</label>
-
-            <button type="submit">Register</button>
-        </form>
-        <a href="https://acharya.ac.in">Log in to Acharya website</a>
-    </div>
 </body>
 </html>
